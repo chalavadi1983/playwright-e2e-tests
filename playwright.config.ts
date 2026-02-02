@@ -10,10 +10,10 @@ import { defineConfig, devices } from '@playwright/test';
 
 /**
  * See https://playwright.dev/docs/test-configuration.
- */
+ ***********/
 export default defineConfig({
   testDir: './e2e',
-  /* Run tests in files in parallel */
+  /* Run tests in files in parallel *8888888888/
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -33,6 +33,8 @@ export default defineConfig({
     ignoreHTTPSErrors: true,
   },
 
+  /* Configure projects for major browsers */
+  /* Configure projects for major browsers */
   /* Configure projects for major browsers */
   projects: [
     {
